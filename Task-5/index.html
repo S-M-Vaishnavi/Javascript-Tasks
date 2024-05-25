@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Table Append</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Task-5</h1>
+        <form>
+            <label for="number"> Enter Number: </label>
+            <input type="number" id="numberTextBox"  placeholder="Enter Number" min="1" max="500" required>
+            <p id="error"></p>
+            <label for="text"> Enter Text:</label>
+            <input type="text" id="normalTextBox"  placeholder="Enter your Password" required>
+            <div class="wrap">
+                <button type="submit" id="submitBtn">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div class="table-container">
+        <div class="main">
+            <table style="width:100%" id="tbl1">
+                <tr>
+                    <thead>
+                        <th>Table 1</th>
+                    </thead>
+                </tr>
+            </table>
+        </div>
+        <div class="main">
+            <table style="width:100%" id="tbl2">
+                <tr>
+                    <thead>
+                        <th>Table 2</th>
+                    </thead>
+                </tr>
+            </table>
+        </div>
+    </div> 
+    <script src="script.js"></script>  
+</body>
+</html>
